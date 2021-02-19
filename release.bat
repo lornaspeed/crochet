@@ -19,7 +19,7 @@ cmd /c "npm run-script build"
 
 robocopy build ..\%appname%export /mir /xd .git /xf CNAME
 
-git push origin master "v%vers%"
+git push origin main "v%vers%"
 
 pushd "..\%appname%export"
 git add -A
