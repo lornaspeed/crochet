@@ -6,6 +6,7 @@
       <script value="start" />
     </scripts>
     <node-interpreter value="project" />
+    <package-manager value="npm" />
     <envs>
       <env name="port" value="4002" />
     </envs>
